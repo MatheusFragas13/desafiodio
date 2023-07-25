@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    background-color: black;
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: white;
+    padding: 10px 20px 0px;
+    
+}
+.header {
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color:whitesmoke;
+    min-height: 100px;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 800px;
+    height: 300px;
+}
+
+table{
+    width: 700px;
+    height: 300px;
+    box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 38px 0px rgba(0,0,0,0.75);
+}
+
+table th {
+    color: white;
+    background-color: black;
+}
